@@ -4,7 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-import org.springframework.security.core.Authentication;
+//lôi day ne => ah ko can cai class nay dau a nhi, no config authenticate, nhung cai project e chay ko can
+
+/*import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 @Configuration
@@ -26,4 +28,4 @@ public class JpaAuditingConfig {
             return authentication.getName();
         }
     }
-}
+}*/
